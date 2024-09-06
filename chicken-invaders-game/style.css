@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url(/Images/Space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chickenContainer {
+  /* background-color: red; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.chicken {
+  height: 60px;
+  z-index: 2;
+}
+
+.rocket img {
+  height: 150px;
+}
+.bullet {
+  position: absolute;
+  height: 30px;
+  z-index: 1;
+}
+.rocket {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
